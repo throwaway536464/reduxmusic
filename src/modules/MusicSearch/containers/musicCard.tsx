@@ -9,7 +9,7 @@ type TrackCardProps = {
 }
 
 export const MovieCard = (props: TrackCardProps) => {
-    const track = useSelector(musicSelectors.getTrackById(props.trackId));
+    const track:ITrack;
     return (
         <Card className="music-card">
             <Card.Item>
