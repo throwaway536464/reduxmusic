@@ -3,6 +3,7 @@ import { Stack, Spinner, SpinnerSize } from "@fluentui/react";
 import { useSelector } from "react-redux";
 import { MovieCard } from "./musicCard";
 import { TrackSearchBox } from "./musicSearch";
+import { ITrack } from "../musicSearch.types";
 
 export const MovieSearch = () => {
     const { music, error } = { music: [], error: "" };
